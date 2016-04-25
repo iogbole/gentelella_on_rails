@@ -1,0 +1,13 @@
+{
+  "name": "gentelella_on_rails",
+  "authors": [
+    "Israel Ogbole"
+  ],
+  "description": "Gentellela Admin Bootstrap template on Rails 4",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "gentelella": "^1.1.0"
+  }
+}
