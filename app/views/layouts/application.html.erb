@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>GentelellaOnRails</title>
+  <title><%= content_for?(:title) ? yield(:title) : "GentelellaOnRails" %> </title>
+
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+
   <%= csrf_meta_tags %>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
 </head>
 
 <body class="nav-md">
 <div class="container body">
+  <% flash.each do |key, value| %>
+      <div align="center" id="flash" class="alert alert-<%= key %>"><%= value %></div>
+  <% end %>
 
 <%= render "partials/sidenav" %>
 <%= render "partials/topnav" %>
@@ -16,7 +23,7 @@
 <%= yield %>
 
   <%= render "partials/footer" %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'footermanifest', 'data-turbolinks-track' => true %>
 
 </body>
 </html>
