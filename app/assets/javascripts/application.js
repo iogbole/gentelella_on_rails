@@ -11,6 +11,8 @@
 // about supported directives.
 //
 //= require jquery
+//= require bootstrap-sprockets
+
 //= require jquery_ujs
 //= require turbolinks
 
@@ -23,8 +25,6 @@
 //= require js/flot/jquery.flot.stack.js
 //= require js/flot/curvedLines.js
 //= require js/flot/jquery.flot.resize.js
-
-//= require js/bootstrap.min.js
 
 //= require js/progressbar/bootstrap-progressbar.min.js
 

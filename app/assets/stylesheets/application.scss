@@ -1,5 +1,5 @@
 /*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * This is a manifest file that'll be compiled into application, which will include all the files
  * listed below.
  *
  * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
@@ -9,22 +9,23 @@
  * compiled file so the styles you add here take precedence over styles defined in any styles
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
- *
- *= require_tree .
- *= require_self
+  ** * require fonts/css/font-awesome.min
 
- *= require css/bootstrap.min.css
- *= require fonts/css/font-awesome.min.css
- *= require css/animate.min.css
- *= require css/custom.css
- *= require css/maps/jquery-jvectormap-2.0.3.css
- *= require css/icheck/flat/green.css
- *= require css/floatexamples.css
- *= require css/normalize.css
- *= require css/nprogress.css
- *= require css/ion.rangeSlider.css
- *= require css/ion.rangeSlider.skinFlat.css
+ *
+
+
  */
 
+@import "bootstrap-sprockets";
+@import "bootstrap";
 
+@import "font-awesome";
 
+@import "css/animate.min";
+@import "css/custom";
+@import "css/icheck/flat/green";
+@import "css/floatexamples";
+@import "css/normalize";
+@import "css/ion.rangeSlider";
+@import "css/ion.rangeSlider.skinFlat";
+@import "pace";
