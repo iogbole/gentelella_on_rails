@@ -14,9 +14,7 @@ Setup:
 
  5. bundle install
 
- 6. rake rails:update:bin
-
- 7. rails s
+ 6. rails s
 
 That's it!
 
