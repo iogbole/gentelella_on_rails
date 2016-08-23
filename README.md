@@ -2,6 +2,9 @@
 ---------------------------
 Rails 4 implementation of the awesome [Gentelella](https://github.com/puikinsh/gentelella) Bootstrap admin template.
 
+- ruby 2.2.3
+- Gentelella 1.1.0
+
 Setup:
  1. Clone this repo :  git clone
     https://github.com/iogbole/gentelella_on_rails.git
