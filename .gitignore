@@ -26,3 +26,12 @@
 
 *.keep
 app/assets/images/.keep
+/public/uploads
+/public/assets
+
+.DS_Store
+*.DS_Store
+*/.DS_Store
+# config/database.yml
+.env
+
