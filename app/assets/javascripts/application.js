@@ -47,5 +47,5 @@
 //= require js/moment/moment
 //= require js/bootstrap-daterangepicker/daterangepicker
 
-//= require js/custom
+// require js/custom
 
