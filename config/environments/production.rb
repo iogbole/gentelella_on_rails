@@ -24,7 +24,8 @@ Rails.application.configure do
   # Apache or NGINX already handles this.
   #config.serve_static_files = ENV['RAILS_SERVE_STATIC_FILES'].present?
   # change this to true to load images from the public folder in production for non-NGNIX setup, like PUMA
-  config.serve_static_files = true
+  #config.serve_static_files = true
+  config.public_file_server.enabled = true
 
       # Compress JavaScripts and CSS.
   config.assets.js_compressor = :uglifier
