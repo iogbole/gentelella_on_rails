@@ -16,30 +16,36 @@
 //= require jquery_ujs
 //= require turbolinks
 
-//= require js/flot/jquery.flot.js
-//= require js/flot/jquery.flot.pie.js
-//= require js/flot/jquery.flot.orderBars.js
-//= require js/flot/jquery.flot.time.min.js
-//= require js/flot/date.js
-//= require js/flot/jquery.flot.spline.js
-//= require js/flot/jquery.flot.stack.js
-//= require js/flot/curvedLines.js
-//= require js/flot/jquery.flot.resize.js
+//= require js/fastclick/fastclick
+//= require js/nprogress/nprogress
 
-//= require js/progressbar/bootstrap-progressbar.min.js
+//= require js/Chart.js/Chart.min
 
-//= require js/icheck/icheck.min.js
+//= require js/gauge.js/gauge.min
 
-//= require js/moment/moment.min.js
-//= require js/datepicker/daterangepicker.js
+//= require js/bootstrap-progressbar/bootstrap-progressbar.min
 
-//= require js/chartjs/chart.min.js
+//= require js/iCheck/icheck.min
 
-//= require js/pace/pace.min.js
+//= require js/skycons/skycons
 
-//= require  js/nprogress.js
+//= require js/Flot/jquery.flot
+//= require js/Flot/jquery.flot.pie
+//= require js/Flot/jquery.flot.time
+//= require js/Flot/jquery.flot.stack
+//= require js/Flot/jquery.flot.resize
 
-//= require flash.js
+//= require js/flot.orderbars/jquery.flot.orderBars
+//= require js/flot-spline/jquery.flot.spline.min
+//= require js/flot.curvedlines/curvedLines
 
+//= require js/DateJS/date
 
+//= require js/jqvmap/jquery.vmap
+//= require js/jqvmap/maps/jquery.vmap.world
+
+//= require js/moment/moment
+//= require js/bootstrap-daterangepicker/daterangepicker
+
+// require js/custom
 

@@ -3,11 +3,11 @@
   "authors": [
     "Israel Ogbole"
   ],
-  "description": "Gentellela Admin Bootstrap template on Rails 4",
+  "description": "Gentellela Admin Bootstrap template on Rails 5",
   "main": "",
   "license": "MIT",
   "homepage": "",
   "dependencies": {
-    "gentelella": "1.1.0"
+    "gentelella": "1.3.0"
   }
 }
